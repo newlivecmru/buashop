@@ -1,0 +1,167 @@
+html,body
+{
+    margin:0px;
+    padding:0px; 
+    font-size:13px;
+}
+body
+{
+    background: rgb(244, 241, 241); 
+    font-family: "verdana";
+}
+#vrapper
+{
+    margin: auto;
+    width: 1320px;
+    background: #fff; 
+    padding: 0px;
+}
+#header
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+
+}
+#nav
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #75787F;
+    float: left;
+}
+#content
+{
+    margin: 0px;
+    padding: 0px;
+    width: 1320px;
+    float: left;
+
+}
+#header h1
+{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px; 
+    font-size: 20px; 
+    padding-bottom: 10px;
+    color: rgb(116, 2, 2);
+}
+#nav ol
+{
+    list-style: none;
+    margin: 0px; 
+    padding: 0px;
+}
+#nav ol li
+{
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+    float: right;  
+}
+#nav ol a{
+    display: block;
+    padding: 5px 10px;
+    color:#fff;
+    text-decoration: none;
+}
+#nav ol a:hover
+{
+    background: #646464;
+}
+#nav ol ol
+{
+    position: absolute;
+    top:30px;
+    left:0px;
+    display: none;
+    background: #fff
+}
+#left-side
+{
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+    padding: 5px;
+    background: #F4F1F1;
+    height:580px;
+}
+#left-side ol
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+#right-side{
+    float: left;
+    width: 82%;
+    height: 200px;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+#footer
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    background: #262F4C;
+}
+.contentforms
+{
+
+    height: 515px;
+}
+.heightform{
+    height: 30px;
+    width: 150px;
+    margin-right: 20px;
+}
+.heightform2{
+    height: 30px;
+    margin-right: 10px;
+    text-align: right;
+}
+.hiddendata
+{
+    display: none;
+}
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table.hovertable th {
+    background-color:#ADAAA3;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+}
+table.hovertable   tr {
+    background-color:#EFEFEF;
+    color: rgb(8, 8, 8);
+}
+table.hovertable   td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #606566;
+}
+
+table.hovertable   tr:hover {
+    background-color:#75787F;
+    cursor: pointer;
+    color: white;
+
+}
